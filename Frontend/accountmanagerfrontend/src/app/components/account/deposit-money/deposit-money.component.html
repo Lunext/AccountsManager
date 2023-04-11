@@ -1,0 +1,23 @@
+<h1 mat-dialog-title>{{actionTitle}}  dinero a la cuenta <span style="color:red">{{depositData.accountOwner}} </span></h1>
+<div mat-dialog-content>
+    <form [formGroup]="depositForm">
+        <mat-grid-list cols="1" rowHeight="90px">
+
+
+        <mat-grid-tile>
+          <mat-form-field appearance="outline">
+              <mat-label>Balance:</mat-label>
+              <input matInput formControlName="balance" autocomplete="off">
+            </mat-form-field>
+      </mat-grid-tile>
+
+          </mat-grid-list>
+    </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-raised-button mat-dialog-close color="warn">Volver</button>
+  <button mat-raised-button color="primary"
+  (click)="depositMoney()"
+  [disabled]="depositForm.invalid"
+  >{{actionbutton}}</button>
+</div>

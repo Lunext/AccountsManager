@@ -1,0 +1,65 @@
+<h1 mat-dialog-title>{{actionTitle}} Cuenta</h1>
+<div mat-dialog-content>
+    <form [formGroup]="accountForm">
+        <mat-grid-list cols="1" rowHeight="90px">
+
+          <mat-grid-tile>
+            <mat-form-field appearance="outline">
+                <mat-label>Id:</mat-label>
+                <input matInput hidden readonly formControlName="id" autocomplete="off">
+              </mat-form-field>
+        </mat-grid-tile>
+            <mat-grid-tile>
+                <mat-form-field appearance="outline">
+                    <mat-label>Titular de la cuenta:</mat-label>
+                    <input matInput formControlName="accountOwner" autocomplete="off">
+                  </mat-form-field>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <mat-form-field appearance="outline">
+                    <mat-label>Tipo de cuenta</mat-label>
+                    <mat-select formControlName="accountType">
+                        <mat-option value="Corriente">Corriente</mat-option>
+                        <mat-option value="Ahorro">Ahorro</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+            </mat-grid-tile>
+
+            <mat-grid-tile>
+              <mat-form-field appearance="outline">
+                  <mat-label>Numero de cuenta:</mat-label>
+                  <input matInput formControlName="accountNumber" autocomplete="off">
+                </mat-form-field>
+          </mat-grid-tile>
+
+          <mat-grid-tile>
+            <mat-form-field appearance="outline">
+                <mat-label>Cedula:</mat-label>
+                <input matInput formControlName="dominicanId" autocomplete="off">
+              </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+          <mat-form-field appearance="outline">
+              <mat-label>Balance:</mat-label>
+              <input type="number" matInput formControlName="balance" autocomplete="off">
+            </mat-form-field>
+      </mat-grid-tile>
+
+      <mat-grid-tile>
+        <mat-form-field appearance="outline">
+            <mat-label>Correo:</mat-label>
+            <input matInput formControlName="email" autocomplete="off">
+          </mat-form-field>
+    </mat-grid-tile>
+
+          </mat-grid-list>
+    </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-raised-button mat-dialog-close color="warn">Volver</button>
+  <button mat-raised-button color="primary"
+  (click)="addAccount()"
+  [disabled]="accountForm.invalid"
+  >{{actionbutton}}</button>
+</div>

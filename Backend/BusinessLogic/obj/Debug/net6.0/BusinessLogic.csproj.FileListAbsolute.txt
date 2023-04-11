@@ -1,0 +1,17 @@
+D:\CsBook\AccountsManager\AccountsManager\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+D:\CsBook\AccountsManager\AccountsManager\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\CsBook\AccountsManager\AccountsManager\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\CsBook\AccountsManager\AccountsManager\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+D:\CsBook\AccountsManager\AccountsManager\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\CsBook\AccountsManager\AccountsManager\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+D:\CsBook\AccountsManager\AccountsManager\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+D:\CsBook\AccountsManager\AccountsManager\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+D:\CsBook\AccountsManager\AccountsManager\BusinessLogic\bin\Debug\net6.0\Domain.dll
+D:\CsBook\AccountsManager\AccountsManager\BusinessLogic\bin\Debug\net6.0\Persistence.dll
+D:\CsBook\AccountsManager\AccountsManager\BusinessLogic\bin\Debug\net6.0\Domain.pdb
+D:\CsBook\AccountsManager\AccountsManager\BusinessLogic\bin\Debug\net6.0\Persistence.pdb
+D:\CsBook\AccountsManager\AccountsManager\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
+D:\CsBook\AccountsManager\AccountsManager\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+D:\CsBook\AccountsManager\AccountsManager\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+D:\CsBook\AccountsManager\AccountsManager\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+D:\CsBook\AccountsManager\AccountsManager\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll

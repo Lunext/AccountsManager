@@ -1,0 +1,98 @@
+<h1 class="mat-h1" style="text-align: center;">Gestión de Cuentas Bancarias</h1>
+<mat-form-field>
+    <mat-label>Filter</mat-label>
+    <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>
+  </mat-form-field>
+<div class="mat-elevation-z8 container">
+
+    <table mat-table [dataSource]="dataSource">
+
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef>Id</th>
+        <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="accountOwner">
+        <th mat-header-cell *matHeaderCellDef> Titular</th>
+        <td mat-cell *matCellDef="let element">{{element.accountOwner}}</td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="accountType">
+        <th mat-header-cell *matHeaderCellDef> Tipo de Cuenta </th>
+        <td mat-cell *matCellDef="let element"> {{element.accountType}} </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="accountNumber">
+        <th mat-header-cell *matHeaderCellDef> Numero de Cuenta </th>
+        <td mat-cell *matCellDef="let element"> {{element.accountNumber}} </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="dominicanId">
+        <th mat-header-cell *matHeaderCellDef> Cedula </th>
+        <td mat-cell *matCellDef="let element"> {{element.dominicanId}} </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="balance">
+        <th mat-header-cell *matHeaderCellDef> Balance </th>
+        <td mat-cell *matCellDef="let element"> ${{element.balance}} </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="email">
+        <th mat-header-cell *matHeaderCellDef> Email </th>
+        <td mat-cell *matCellDef="let element"> {{element.email}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="acciones">
+        <th mat-header-cell *matHeaderCellDef>
+            <button (click)="openDialog()"  class="agregar" mat-raised-button color="primary">Nueva Cuenta</button>
+        </th>
+        <td mat-cell *matCellDef="let element">
+            <mat-icon   (click)="EditDialog(element) "class="edit"  matTooltip="Editar" fontIcon="edit"></mat-icon>
+            <mat-icon  (click)="deleteDialog(element)" matTooltip="Eliminar" class="delete" fontIcon="delete"></mat-icon>
+        </td>
+    </ng-container>
+
+    <ng-container matColumnDef="Deposito">
+      <th mat-header-cell *matHeaderCellDef>
+          Realizar Deposito
+      </th>
+      <td mat-cell *matCellDef="let element">
+          <mat-icon   (click)="depositDialog(element) "class="edit"  matTooltip="Editar" fontIcon="trending_up"></mat-icon>
+      </td>
+  </ng-container>
+
+
+  <ng-container matColumnDef="Retiro">
+    <th mat-header-cell *matHeaderCellDef>
+        Realizar Retiro
+    </th>
+    <td mat-cell *matCellDef="let element">
+        <mat-icon   (click)="withdrawDialog(element) "class="edit"  matTooltip="Retirar" fontIcon="trending_down"></mat-icon>
+    </td>
+</ng-container>
+
+<ng-container matColumnDef="VerSaldo">
+  <th mat-header-cell *matHeaderCellDef>
+      Ver Saldo
+  </th>
+  <td mat-cell *matCellDef="let element">
+      <mat-icon   (click)="showAmountDialog(element) "class="edit"  matTooltip="Ver saldo" fontIcon="shop"></mat-icon>
+  </td>
+</ng-container>
+
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+    <mat-paginator [pageSizeOptions]="[5, 10, 20]"
+                   showFirstLastButtons
+                   aria-label="Select page of periodic elements">
+    </mat-paginator>
+  </div>

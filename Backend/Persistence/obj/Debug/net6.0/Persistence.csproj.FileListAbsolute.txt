@@ -1,0 +1,17 @@
+D:\CsBook\AccountsManager\AccountsManager\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
+D:\CsBook\AccountsManager\AccountsManager\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\CsBook\AccountsManager\AccountsManager\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
+D:\CsBook\AccountsManager\AccountsManager\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
+D:\CsBook\AccountsManager\AccountsManager\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
+D:\CsBook\AccountsManager\AccountsManager\Persistence\bin\Debug\net6.0\Persistence.deps.json
+D:\CsBook\AccountsManager\AccountsManager\Persistence\bin\Debug\net6.0\Persistence.runtimeconfig.json
+D:\CsBook\AccountsManager\AccountsManager\Persistence\bin\Debug\net6.0\Persistence.dll
+D:\CsBook\AccountsManager\AccountsManager\Persistence\bin\Debug\net6.0\Persistence.pdb
+D:\CsBook\AccountsManager\AccountsManager\Persistence\bin\Debug\net6.0\Domain.dll
+D:\CsBook\AccountsManager\AccountsManager\Persistence\bin\Debug\net6.0\Domain.pdb
+D:\CsBook\AccountsManager\AccountsManager\Persistence\obj\Debug\net6.0\Persistence.csproj.CopyComplete
+D:\CsBook\AccountsManager\AccountsManager\Persistence\obj\Debug\net6.0\Persistence.dll
+D:\CsBook\AccountsManager\AccountsManager\Persistence\obj\Debug\net6.0\refint\Persistence.dll
+D:\CsBook\AccountsManager\AccountsManager\Persistence\obj\Debug\net6.0\Persistence.pdb
+D:\CsBook\AccountsManager\AccountsManager\Persistence\obj\Debug\net6.0\Persistence.genruntimeconfig.cache
+D:\CsBook\AccountsManager\AccountsManager\Persistence\obj\Debug\net6.0\ref\Persistence.dll

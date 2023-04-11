@@ -1,0 +1,47 @@
+mat-dialog-content {
+  padding: 16px;
+  height: 60%;
+}
+
+mat-form-field {
+  width: 100%;
+
+}
+
+mat-label,
+mat-select {
+  font-size: 14px;
+}
+
+mat-grid-tile + mat-grid-tile {
+  margin-top: 16px;
+}
+
+mat-dialog-title {
+  font-size: 20px;
+  padding: 16px;
+}
+
+mat-dialog-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+button {
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 8px 16px;
+  min-width: 100px;
+  font-size: 14px;
+}
+
+.mat-dialog-actions {
+  text-align: center;
+}
+mat-dialog-title {
+  font-size: 20px;
+  padding: 16px;
+  text-align: center;
+}
